@@ -24,32 +24,79 @@ The EIN and NAME columns have been dropped (5 pt)
 ![11](Images/11.png)
 
 The columns with more than 10 unique values have been grouped together (5 pt)
+
+![12](Images/12.png)
+
 The categorical variables have been encoded using one-hot encoding (5 pt)
+
+![13](Images/13.png)
+
 The preprocessed data is split into features and target arrays (5 pt)
+
+![14](Images/14.png)
+
 The preprocessed data is split into training and testing datasets (5 pt)
+
+![15](Images/15.png)
+
 The numerical values have been standardized using the StandardScaler() module (5 pt)
 
+![16](Images/16.png)
 
 ## Deliverable 2: Compile, Train, and Evaluate the Model
 
 The neural network model using Tensorflow Keras contains working code that performs the following steps:
 The number of layers, the number of neurons per layer, and activation function are defined (2.5 pt)
+
+![21](Images/21.png)
+
 An output layer with an activation function is created (2.5 pt)
+
+![22](Images/22.png)
+
 There is an output for the structure of the model (5 pt)
+
+![23](Images/23.png)
+
 There is an output of the model’s loss and accuracy (5 pt)
+
+![24](Images/24.png)
+
 The model's weights are saved every 5 epochs (2.5 pt)
+
+![25](Images/25.png)
+
 The results are saved to an HDF5 file (2.5 pt)
+
+![26](Images/26.png)
 
 
 ## Deliverable 3: Optimize the Model
 
 The model is optimized, and the predictive accuracy is increased to over 75%, or there is working code that makes three attempts to increase model performance using the following steps:
 Noisy variables are removed from features (2.5 pt)
+
+![31](Images/31.png)
+
 Additional neurons are added to hidden layers (2.5 pt)
+
+![32](Images/32.png)
+
 Additional hidden layers are added (5 pt)
+
+![33](Images/33.png)
+
 The activation function of hidden layers or output layers is changed for optimization (5 pt)
+
+![34](Images/34.png)
+
 The model's weights are saved every 5 epochs (2.5 pt)
+
+![35](Images/35.png)
+
 The results are saved to an HDF5 file (2.5 pt)
+
+![36](Images/36.png)
 
 
 ## Deliverable 4: A Written Report on the Neural Network Model
