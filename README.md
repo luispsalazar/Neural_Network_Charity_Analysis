@@ -19,27 +19,27 @@ IS_SUCCESSFUL—Was the money used effectively
 ## Deliverable 1: Preprocessing Data for a Neural Network Model
 
 The following preprocessing steps have been performed:
-The EIN and NAME columns have been dropped (5 pt)
+The EIN and NAME columns have been dropped.
 
 ![11](Images/11.png)
 
-The columns with more than 10 unique values have been grouped together (5 pt)
+The columns with more than 10 unique values have been grouped together.
 
 ![12](Images/12.png)
 
-The categorical variables have been encoded using one-hot encoding (5 pt)
+The categorical variables have been encoded using one-hot encoding.
 
 ![13](Images/13.png)
 
-The preprocessed data is split into features and target arrays (5 pt)
+The preprocessed data is split into features and target arrays.
 
 ![14](Images/14.png)
 
-The preprocessed data is split into training and testing datasets (5 pt)
+The preprocessed data is split into training and testing datasets.
 
 ![15](Images/15.png)
 
-The numerical values have been standardized using the StandardScaler() module (5 pt)
+The numerical values have been standardized using the StandardScaler() module.
 
 ![16](Images/16.png)
 
@@ -50,23 +50,23 @@ The number of layers, the number of neurons per layer, and activation function a
 
 ![21](Images/21.png)
 
-An output layer with an activation function is created (2.5 pt)
+An output layer with an activation function is created.
 
 ![22](Images/22.png)
 
-There is an output for the structure of the model (5 pt)
+There is an output for the structure of the model.
 
 ![23](Images/23.png)
 
-There is an output of the model’s loss and accuracy (5 pt)
+There is an output of the model’s loss and accuracy.
 
 ![24](Images/24.png)
 
-The model's weights are saved every 5 epochs (2.5 pt)
+The model's weights are saved every 5 epochs.
 
 ![25](Images/25.png)
 
-The results are saved to an HDF5 file (2.5 pt)
+The results are saved to an HDF5 file.
 
 ![26](Images/26.png)
 
@@ -78,23 +78,23 @@ Noisy variables are removed from features (2.5 pt)
 
 ![31](Images/31.png)
 
-Additional neurons are added to hidden layers (2.5 pt)
+Additional neurons are added to hidden layers.
 
 ![32](Images/32.png)
 
-Additional hidden layers are added (5 pt)
+Additional hidden layers are added.
 
 ![33](Images/33.png)
 
-The activation function of hidden layers or output layers is changed for optimization (5 pt)
+The activation function of hidden layers or output layers is changed for optimization.
 
 ![34](Images/34.png)
 
-The model's weights are saved every 5 epochs (2.5 pt)
+The model's weights are saved every 5 epochs.
 
 ![35](Images/35.png)
 
-The results are saved to an HDF5 file (2.5 pt)
+The results are saved to an HDF5 file.
 
 ![36](Images/36.png)
 
