@@ -27,26 +27,29 @@ The columns with more than 10 unique values have been grouped together.
 
 ![12](Images/12.png)
 
-The categorical variables have been encoded using one-hot encoding.
-
 ![13](Images/13.png)
 
-The preprocessed data is split into features and target arrays.
+The categorical variables have been encoded using one-hot encoding.
 
 ![14](Images/14.png)
 
-The preprocessed data is split into training and testing datasets.
+The preprocessed data is split into features and target arrays.
 
 ![15](Images/15.png)
 
-The numerical values have been standardized using the StandardScaler() module.
+The preprocessed data is split into training and testing datasets.
 
 ![16](Images/16.png)
+
+The numerical values have been standardized using the StandardScaler() module.
+
+![17](Images/17.png)
 
 ## Deliverable 2: Compile, Train, and Evaluate the Model
 
 The neural network model using Tensorflow Keras contains working code that performs the following steps:
-The number of layers, the number of neurons per layer, and activation function are defined (2.5 pt)
+
+The number of layers, the number of neurons per layer, and activation function are defined.
 
 ![21](Images/21.png)
 
@@ -74,7 +77,8 @@ The results are saved to an HDF5 file.
 ## Deliverable 3: Optimize the Model
 
 The model is optimized, and the predictive accuracy is increased to over 75%, or there is working code that makes three attempts to increase model performance using the following steps:
-Noisy variables are removed from features (2.5 pt)
+
+Noisy variables are removed from features.
 
 ![31](Images/31.png)
 
